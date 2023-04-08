@@ -1,45 +1,34 @@
 {
+    "identifier": "com.pa.xxx",
     "author":"name or names",
-    "build": "",
 
+    "icon": "url to icon",
+    "display_name": "displayed name",
+    "description": "description of your mod",
     "category":[
         "category1",
         "category2"
     ],
 
-    "constext":"server or client",
-
-    "date": "2000-01-31",
-
-    "description": "description of your mod",
-
-    "display_name": "displayed name",
-
     "forum": "link to steam topic or PA forum website",
+    "github": "url to github",
 
-    "identifier": "com.pa.xxx",
-
-    "signature" : "Enjoy this modification!",
-
+    "build": "gamebuildversion",
     "version": "major.minor.patch.additional",
-
-    "companions": [
-        "modid1",
-        "modid2"
-    ],
+    "date": "2000-01-31",
+    
+    "context":"server or client",
+    "priority": 100,
 
     "dpendencies":[
         "modid1",
         "modid2"
     ],
 
-    "framework": false,
-
-    "github": "url to github",
-
-    "icon": "url to icon",
-
-    "priority": 100,
+    "companions": [
+        "modid1",
+        "modid2"
+    ],
 
     "scenes":{
         "somescene":[
@@ -47,5 +36,8 @@
         ]
     },
 
+    "framework": false,
+
+    "signature" : "Enjoy this modification!",
     "titansOnly": true
 }
