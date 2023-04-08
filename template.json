@@ -1,0 +1,51 @@
+{
+    "author":"name or names",
+    "build": "",
+
+    "category":[
+        "category1",
+        "category2"
+    ],
+
+    "constext":"server or client",
+
+    "date": "2000-01-31",
+
+    "description": "description of your mod",
+
+    "display_name": "displayed name",
+
+    "forum": "link to steam topic or PA forum website",
+
+    "identifier": "com.pa.xxx",
+
+    "signature" : "Enjoy this modification!",
+
+    "version": "major.minor.patch.additional",
+
+    "companions": [
+        "modid1",
+        "modid2"
+    ],
+
+    "dpendencies":[
+        "modid1",
+        "modid2"
+    ],
+
+    "framework": false,
+
+    "github": "url to github",
+
+    "icon": "url to icon",
+
+    "priority": 100,
+
+    "scenes":{
+        "somescene":[
+            "coui://ui/mods/moduifolder/script.js"
+        ]
+    },
+
+    "titansOnly": true
+}
