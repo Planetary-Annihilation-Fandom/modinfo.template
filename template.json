@@ -20,7 +20,7 @@
     "context":"server or client",
     "priority": 100,
 
-    "dpendencies":[
+    "dependencies":[
         "modid1",
         "modid2"
     ],
